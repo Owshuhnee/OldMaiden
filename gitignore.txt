@@ -1,0 +1,10 @@
+# Ignore build outputs
+build/
+out/
+.vs/
+
+# Ignore temporary files
+*.exe
+*.obj
+*.log
+*.tmp
