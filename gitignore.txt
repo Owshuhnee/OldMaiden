@@ -1,10 +1,19 @@
-# Ignore build outputs
+# CMake/VS build outputs
 build/
 out/
 .vs/
-
-# Ignore temporary files
-*.exe
+CMakeFiles/
+CMakeCache.txt
+*.dir/
 *.obj
+*.o
+*.pdb
+*.exe
+*.dll
+*.lib
+*.ilk
 *.log
-*.tmp
+
+# Editors
+.vscode/
+.idea/
